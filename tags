@@ -3613,7 +3613,7 @@ _ranged_download	anime_downloader/downloader/http_downloader.py	/^    def _range
 _read_config	anime_downloader/config.py	/^    def _read_config(self):$/;"	m	class:_Config
 _read_from_watch_file	anime_downloader/watch.py	/^    def _read_from_watch_file(self):$/;"	m	class:Watcher
 _referer	anime_downloader/sites/kissanime.py	/^    _referer = 'http:\/\/kissanime.ru'$/;"	v	class:KissAnime
-_scarpe_episodes	anime_downloader/sites/anime.py	/^    def _scarpe_episodes(self):$/;"	m	class:Anime
+_scrape_episodes	anime_downloader/sites/anime.py	/^    def _scrape_episodes(self):$/;"	m	class:Anime
 _scrape_episode	anime_downloader/sites/kissanime.py	/^    def _scrape_episode(self, response):$/;"	m	class:KissanimeEpisode
 _scrape_episodes	anime_downloader/sites/animeflv.py	/^    def _scrape_episodes(self):$/;"	m	class:Animeflv
 _scrape_episodes	anime_downloader/sites/animepahe.py	/^    def _scrape_episodes(self, ani_json):$/;"	m	class:AnimePahe

@@ -140,7 +140,7 @@ class Anime:
         the necessary data about the anime and it's episodes.
 
         This function calls
-        :py:class:`~anime_downloader.sites.anime.BaseAnime._scarpe_episodes`
+        :py:class:`~anime_downloader.sites.anime.BaseAnime._scrape_episodes`
         and
         :py:class:`~anime_downloader.sites.anime.BaseAnime._scrape_metadata`
 
@@ -210,9 +210,9 @@ Episode count: {length}
     def __str__(self):
         return self.title
 
-    def _scarpe_episodes(self):
+    def _scrape_episodes(self):
         """
-        _scarpe_episodes is function which has to be overridden by the base
+        _scrape_episodes is function which has to be overridden by the base
         classes to scrape the episode urls from the web page.
 
         Parameters
